@@ -1,0 +1,35 @@
+using System;
+using System.Drawing;
+using System.Windows.Forms;
+
+
+double a; 
+double b; 
+double x; 
+double y;
+
+private class Mandelnumber
+    {
+        int N;
+        N = 0           
+        When(N<100 a<2 b<2)
+        {
+            N = N + 1;
+            a = a * a - b + x;
+            b = 2 * a * b + y;
+        }
+
+    }
+    public class Window
+    {
+        static void Main
+        {
+            NewForm scherm;
+            scherm = new Newform;
+            Application.run(scherm);
+
+        }
+
+    class Newform:Form
+    {}
+
